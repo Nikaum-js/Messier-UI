@@ -1,0 +1,4 @@
+{
+  "extends": "@messier-ui/ts-config/base.json",
+  "include": ["src"],
+}

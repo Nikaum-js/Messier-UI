@@ -1,0 +1,4 @@
+{
+  "extends": "@messier-ui/ts-config/react.json",
+  "include": ["src"],
+}
