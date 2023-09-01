@@ -5,6 +5,13 @@ const config = {
   docs: {
     autodocs: true,
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/Messier-UI/'
+    }
+
+    return config
+  }
 };
 
 export default config;
